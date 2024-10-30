@@ -12,3 +12,4 @@ C:\Users\Markazi.co\source\repos\calculator master\calculator master\obj\Debug\n
 C:\Users\Markazi.co\source\repos\calculator master\calculator master\obj\Debug\net8.0\calculator master.pdb
 C:\Users\Markazi.co\source\repos\calculator master\calculator master\obj\Debug\net8.0\calculator master.genruntimeconfig.cache
 C:\Users\Markazi.co\source\repos\calculator master\calculator master\obj\Debug\net8.0\ref\calculator master.dll
+C:\Users\Markazi.co\source\repos\calculator master\calculator master\obj\Debug\net8.0\calculator master.sourcelink.json

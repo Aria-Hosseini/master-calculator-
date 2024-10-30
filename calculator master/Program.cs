@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Security.Cryptography;
-
 class program
 {
     static void Main()
@@ -57,21 +55,22 @@ class program
                 break;
             /*sin*/
             case 's':
-                result= Math.Sin(num1);
+                result= Math.Sin(num1 * Math.PI /180);
                 break;
             /*cos*/
             case 'c':
-                result= Math.Cos(num1);
+                result = Math.Cos(num1 * Math.PI / 180);
                 break;
             /*tan*/
             case 't':
-                result = Math.Tan(num1);
+                result = Math.Tan(num1 * Math.PI / 180);
                 break;
             /*ctan*/
             case 'k':
-                if (Math.Tan(num1) != 0)
+                double radians = num1 * Math.PI / 180;
+                if (Math.Tan(radians) != 0)
                 {
-                    result = 1 / Math.Tan(num1);
+                    result = 1 / Math.Tan(radians);
                 }
                 else
                 {
@@ -79,21 +78,12 @@ class program
                     validopration = false;
                 }
                 break;
-
-
-
-
-
         }
 
         if (validopration)
         {
             Console.WriteLine($"result: {result}");
         }
-
-
-
-
     }
 
 }
